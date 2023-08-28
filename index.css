@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  body {
+    height: 100vh;
+    background: rgb(223, 54, 82);
+  }
+  .container {
+    font-size: 16px;
+    width: 80vw;
+    max-width: 60em;
+    padding: 3em 1.8em;
+    background-color: #290135;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    border-radius: 0.6em;
+    
+  }
+  .search{
+    display: grid;
+    grid-template-columns: 9fr 3fr;;
+    gap: 1.2em;
+  }
+  .search input,
+  .search button {    
+    font-size: 0.9em;
+    outline: none;
+    border-radius: 0.3em;
+  }
+  .search input {
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    padding: 0.7em;
+    color: #ffffff;
+  }
+ 
+  .search button {
+    background-color: #ffb92a;
+    border: none;
+    cursor: pointer;
+  }
+  #result {
+    color: #ffffff;
+  }
+  .a{
+   align-items: center;
+   display: flex;
+   flex-direction: column;
+  }
+  .i{
+    grid-template-columns: 4fr 8fr;
+
+    margin-top: 1.2em;
+  }
+  .poster {
+    width: 100%;
+  }
+  h2 {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+  }
+  .rating {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.6em;
+    margin: 0.6em 0 0.9em 0;
+  }
+   .checked{
+    width: 1.2em;
+    color: yellow
+  }
+  .rating h4 {
+    display: inline-block;
+    font-size: 1.1em;
+    font-weight: 500;
+  }
+  .details {
+    display: flex;
+    font-size: 0.95em;
+    gap: 1em;
+    justify-content: center;
+    color: #ffffff;
+    margin: 0.6em 0;
+    font-weight: 300;
+  }
+ 
+  h3 {
+    font-weight: 500;
+    margin-top: 1.2em;
+  }
+  p {
+    font-size: 0.9em;
+    font-weight: 300;
+    line-height: 1.8em;
+    text-align: justify;
+    color: #ffffff;
+  }
+  .msg {
+    text-align: center;
+  }
+  
